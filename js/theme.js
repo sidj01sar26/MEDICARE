@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let theme = getTheme();
     if (!theme) {
         // If the theme is not set in local storage, set the default theme to dark.
-        theme = 'light';
+        theme = 'dark';
         saveTheme(theme);
     }
     html.setAttribute('data-theme', theme);
